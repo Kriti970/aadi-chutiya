@@ -6,7 +6,7 @@ module.exports.config = {
     name: "boss",
     version: "1.0.1",
     hasPermssion: 0,
-    credits: "SHANKAR SUMAN",
+    credits: "ITZ AADI",
     description: "no prefix",
     usePrefix: false,
     commandCategory: "No command marks needed",
@@ -15,7 +15,7 @@ module.exports.config = {
 };
 
 const gif = "https://i.imgur.com/ZOZv3qU.jpeg";
-const message = "● ======= 𝐇𝐄𝐋𝐋𝐎 𝐁𝐀𝐁𝐘 ======= ●                                                          ☟  ========== ☟ ==========  ☟.                                                         ●============================●                              𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐀𝐚̃𝐃𝐢   𝐁𝐚𝐁𝐮";
+const message = "𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐀𝐚̃𝐃𝐢   𝐁𝐚𝐁𝐮\n\n\n🙂💔";
 
 module.exports.handleEvent = async function({ api, event, client, Users, __GLOBAL }) {
     var { threadID, messageID } = event;
