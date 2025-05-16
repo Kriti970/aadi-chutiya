@@ -4,7 +4,7 @@ module.exports.config = {
     version: "1.0.1",
         hasPermssion: 0,
         credits: "AADI BABU", 
-        description: "hihihihi",
+        description: "ITZ BOT AADI",
         commandCategory: "no prefix",
         usages: "RuhaNi",
     cooldowns: 5, 
@@ -12,10 +12,10 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         var { threadID, messageID } = event;
-        if (event.body.indexOf("RUHANI")==0 || event.body.indexOf("ruhani")==0 || event.body.indexOf("Ruhani")==0 || event.body.indexOf("@Ruhani Khan")==0) {
+        if (event.body.indexOf("Pihu")==0 || event.body.indexOf("pihu")==0 || event.body.indexOf("PIHU")==0 || event.body.indexOf("@◄───╬❆🩷❅╬───► 🩷Pîhū🩷 ◄───╬❆")==0) {
                 var msg = {
-                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐑𝐮𝐇𝐚𝐍𝐢 𝐛𝐚𝐛𝐮 \n__________________________________\n\n𝐎𝐰𝐧𝐞𝐑 𝐑𝐮𝐇𝐚𝐍𝐢\n__________________________________ ",
-                                attachment: fs.createReadStream(__dirname + `/noprefix/FB_IMG_1731385004342.jpg`)
+                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐏𝐢𝐇𝐮 𝐛𝐚𝐁𝐮 \n\n\n🙂💔",
+                                attachment: fs.createReadStream(__dirname + `/noprefix/255c9fde397fdf1cb0f09fc380af5a0f.jpg`)
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😳", event.messageID, (err) => {}, true)
