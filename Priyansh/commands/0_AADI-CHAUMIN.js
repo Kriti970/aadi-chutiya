@@ -4,7 +4,7 @@ module.exports.config = {
     version: "1.0.1",
         hasPermssion: 0,
         credits: "AADI BABU", 
-        description: "hihihihi",
+        description: "ITZ BOT AADI SHRIVTASTAV",
         commandCategory: "no prefix",
         usages: "chaumin",
     cooldowns: 5, 
